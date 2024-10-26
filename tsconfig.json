@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",                 // Set ECMAScript version to ES6 (or later)
+    "lib": ["es6", "dom"],           // Include DOM for browser APIs
+    "module": "commonjs",            // Set module system, can be 'commonjs' or 'es6'
+    "strict": true,                  // Enable strict type-checking options
+    "esModuleInterop": true,         // Enable interoperability between CommonJS and ES6 modules
+    "outDir": "./dist",              // Output directory for compiled JavaScript
+    "rootDir": "./src",              // Root directory for your TypeScript files
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*"]            // Include all TypeScript files in the src folder
+}
